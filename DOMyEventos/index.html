@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href= "style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="marcador">
+        <h1>Tienda </h1>
+         <ul id="listadoDeProductos" ></ul>
+    <div class = "ordenBoton">
+        <button type="button" id="armarCarrito"> Agregar al carrito</button>
+    </div>  
+</section>
+<section>
+    <h1>Carrito de Compras</h1>
+    <table >
+        <thead>
+        <tr>
+            <th>Producto</th>
+            <th>cantidad</th>
+            <th>Total por producto</th>
+        </tr>
+    </thead>
+    <tbody id="tbCarrito"></tbody>
+</table> 
+<div id = "divTotal"></div>
+</section>
+<div class ="ordenBoton"><button type="button" id= "modificarCompra">Modificar Compra</button></div>
+<div class= "ordenBoton"><button id = "enviarPedido">Enviar</button></div>
+       <script src="domYEventos.js"></script>
+</body>
+</html>
