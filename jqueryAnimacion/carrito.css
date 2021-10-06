@@ -1,0 +1,88 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tutoUsuario{
+    width: 40%;
+}
+#listadoDeProductos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ordenarProductos{
+    border: solid 2px black;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 12rem;
+    align-items: center;
+    background-color:darkgray;
+    
+}
+.ordenFooterTarjetas input{
+    width: 5rem;
+    font-size: 1rem;
+}
+.imagenProducto{
+    height: 10rem;
+    width: 8rem;
+    margin: 1rem 2rem;
+}
+.sizeBotonCarrito{
+    height: 2rem;
+    width: 2rem;
+}
+.ordenFooterTarjetas{
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    flex-direction: row;
+justify-content: space-around;
+}
+.modal{
+    width: 80vw;
+    height: 90vh;
+    top:50px;
+    left: 40px;
+    background-color: cornsilk;
+    display: none; 
+    position: fixed;
+}
+
+.cuerpoModal{
+    position: relative;
+    overflow: auto;
+    
+}
+footer{display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 15rem;
+}
+a{
+    font-size: 2rem;
+    border: solid 2px black;
+    padding: 3px;
+    border-radius: 5%;
+    text-decoration: none ;
+}
+#popUp{
+    justify-self: center;
+    align-self: center;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(176, 176, 245);
+    display: none;
+    position: fixed;
+    top:10px;
+    left:60px;
+}
+#imgPopUp{
+    width: 100%;
+    height: 100%;
+}
